@@ -38,6 +38,16 @@
     "url": "https://github.com/SimplyBuilder/sb-module-notify/issues"
   },
   "author": "Jamil Serviços <jamilservicos@gmail.com> (https://github.com/jamilservicos)",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/jamilservicos"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/jamilservices"
+    }
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=20.10.x"
