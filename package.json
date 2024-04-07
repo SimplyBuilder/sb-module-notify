@@ -1,0 +1,79 @@
+{
+  "name": "@jamilservices/sb-module-notify",
+  "package": "@jamilservices/sb-module-notify",
+  "description": "Simply Builder Module - Create, Manage, and Destroy Notifications",
+  "version": "1.0.0",
+  "module": "lib/main.min.js",
+  "type": "module",
+  "types": "./types.d.ts",
+  "files": [
+    "AUTHORS",
+    "lib",
+    "types.d.ts"
+  ],
+  "imports": {
+    "#sb-module-notify": "./lib/main.min.js"
+  },
+  "exports": {
+    "default": "./lib/main.min.js"
+  },
+  "scripts": {
+    "clean": "rm -rf lib && rm -rf build",
+    "build": "pnpm run clean && rollup -c",
+    "build:core": "pnpm run clean && rollup -c rollup-core.config.js",
+    "see-pack": "tar tvf $(npm pack)",
+    "tests": "node --test-reporter=spec --test test/setup.js",
+    "test": "pnpm run build && pnpm run tests",
+    "prepublish": "pnpm test",
+    "version:patch": "pnpx changelogen@latest --bump --patch",
+    "version:minor": "pnpx changelogen@latest --bump --minor",
+    "version:major": "pnpx changelogen@latest --bump --major"
+  },
+  "homepage": "https://simplybuilder.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimplyBuilder/sb-module-notify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimplyBuilder/sb-module-notify/issues"
+  },
+  "author": "Jamil Serviços <jamilservicos@gmail.com> (https://github.com/jamilservicos)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.10.x"
+  },
+  "os": [
+    "!win32"
+  ],
+  "keywords": [
+    "jamilservicos",
+    "jamilservices",
+    "node",
+    "nodejs",
+    "node.js",
+    "javascript",
+    "simply-builder",
+    "simplybuilder",
+    "simply",
+    "builder",
+    "module",
+    "event",
+    "events",
+    "notification",
+    "notify",
+    "subscribe",
+    "unsubscribe",
+    "publish",
+    "emitter",
+    "emit",
+    "listener",
+    "reactive"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-replace": "latest",
+    "@rollup/plugin-terser": "latest",
+    "fast-glob": "latest",
+    "rollup": "latest"
+  },
+  "packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f"
+}
