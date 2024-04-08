@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.0.2
+
+[compare changes](https://github.com/SimplyBuilder/sb-module-notify/compare/v1.0.1...v1.0.2)
+
+### 🚀 Enhancements
+
+- Update module name and version in internal store ([895edee](https://github.com/SimplyBuilder/sb-module-notify/commit/895edee))
+
+### 📖 Documentation
+
+- Update README.md with Unsubscribe to an Event feature ([328aad9](https://github.com/SimplyBuilder/sb-module-notify/commit/328aad9))
+
+### ❤️ Contributors
+
+- JamilServices <jamilservicos@gmail.com>
+
 ## v1.0.1
 
 [compare changes](https://github.com/SimplyBuilder/sb-module-notify/compare/empty...v1.0.1)
