@@ -22,9 +22,11 @@
     "build": "pnpm run clean && rollup -c",
     "build:core": "pnpm run clean && rollup -c rollup-core.config.js",
     "see-pack": "tar tvf $(npm pack)",
-    "tests": "node --test-reporter=spec --test test/setup.js",
+    "tests": "node --test-reporter=spec --test test/setup.js --test test/build.js",
     "test": "pnpm run build && pnpm run tests",
     "prepublish": "pnpm test",
+    "publish:dist": "pnpm publish --no-git-checks --access public",
+    "publish:test": "pnpm publish --dry-run --no-git-checks",
     "version:patch": "pnpx changelogen@latest --bump --patch",
     "version:minor": "pnpx changelogen@latest --bump --minor",
     "version:major": "pnpx changelogen@latest --bump --major"
