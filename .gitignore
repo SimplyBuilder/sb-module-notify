@@ -8,11 +8,17 @@
 
 !src
 !src/main.js
+!src/main.spec;js
+!src/store.js
+!src/store.spec.js
 !test
-!test/main.js
+!test/setup.js
+!test/build.js
+!types.d.ts
 
 !package.json
 !rollup.config.js
+!tsconfig.json
 
 !README.md
 !AUTHORS
