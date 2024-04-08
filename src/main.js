@@ -22,8 +22,8 @@ import {NotifyStore} from "./store.js";
  */
 const internalStore = {
     app: {
-        name: 'NotifyModuleLibName',
-        version: 'NotifyModuleLibVersion'
+        name: 'SimplyBuilderModuleLibName',
+        version: 'SimplyBuilderModuleLibVersion'
     }
 };
 /**
