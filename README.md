@@ -87,6 +87,12 @@ notify.subscribe({
 });
 ```
 
+### UnSubscribing to an Event
+
+```javascript
+notify.unsubscribe("uniqueListenerId");
+```
+
 ### Emitting an Event
 
 ```javascript
