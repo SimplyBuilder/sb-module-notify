@@ -2,7 +2,7 @@
   "name": "@jamilservices/sb-module-notify",
   "package": "@jamilservices/sb-module-notify",
   "description": "Simply Builder Module - Create, Manage, and Destroy Notifications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "lib/main.min.js",
   "type": "module",
   "types": "./types.d.ts",
